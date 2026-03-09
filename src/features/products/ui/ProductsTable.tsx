@@ -324,7 +324,7 @@ export const ProductsTable: React.FunctionComponent<IProps> = ({addProductForm, 
                 <td className={styles.table_row_line_left}>{product.title}</td>
                 <td className={styles.table_row_line}>{product.brand ?? '-'}</td>
                 <td className={styles.table_row_line}>{product.sku ?? '-'}</td>
-                <td className={styles.table_row_line}>
+                <td className={product.rating <3 ? styles.table_rating_red : styles.table_row_line}>
                   {product.rating != null ? `${product.rating}/5` : '-'}
                 </td>
                 <td className={styles.table_row_line}>{product.price.toFixed(2)} ₽</td>

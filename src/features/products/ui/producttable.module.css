@@ -70,6 +70,12 @@
 .table_row_line {
     border-bottom: 3px solid #E2E2E2;
 }
+
+.table_rating_red {
+    border-bottom: 3px solid #E2E2E2;
+    color: red;
+}
+
 .table_row_line_left {
     border-bottom: 3px solid #E2E2E2;
     text-align: left;    
