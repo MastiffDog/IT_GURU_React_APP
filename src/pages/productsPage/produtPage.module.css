@@ -1,0 +1,10 @@
+.main {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    /* position: relative; */
+    background-color: #F6F6F6; 
+    /* background-color: gray; */
+    display: flex;
+    flex-direction: column;
+}

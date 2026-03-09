@@ -1,0 +1,35 @@
+.main {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.disabled {
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background: #797FEA;
+    border-radius: 4px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+}
+.main:hover {
+    cursor: pointer;
+}

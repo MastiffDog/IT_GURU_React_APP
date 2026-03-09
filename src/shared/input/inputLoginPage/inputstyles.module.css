@@ -1,0 +1,51 @@
+.input_group {
+    position: relative;
+    display: inline-block;
+}
+
+.input_with_icons {
+    padding-left: 54px;
+    padding-right: 54px;
+    width: 100%;
+}
+
+.input_icon_left {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    left: 16px;
+    pointer-events: none;
+}
+
+.input_icon_btn_close {
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 19px;
+    top: 55%;
+
+    img {
+        max-width: 14px;
+        max-height: 16px;
+    }
+}
+
+.input_icon_btn_eye {
+    background: none;
+    border: none;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 19px;
+    top: 51%;
+
+    img {
+        max-width: 24px;
+        max-height: 24px;
+    }
+}
