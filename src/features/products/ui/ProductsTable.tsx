@@ -139,6 +139,13 @@ export const ProductsTable: React.FunctionComponent<IProps> = ({addProductForm, 
     }
   };
 
+  //Обновление страницы
+  const handleRefresh = () => {
+    setProgress(0);
+    setLoading(true);
+    loadProductsNormal();
+  }
+
   // Сохранение настроек сортировки в localStorage
   useEffect(() => {
     if (sortSettings) {
@@ -195,7 +202,10 @@ export const ProductsTable: React.FunctionComponent<IProps> = ({addProductForm, 
             <span>Все позиции</span>
           </div> 
           <div className={styles.refresh}>
-            <ButtonWithIcon iconSrc={refresh}/>
+            <ButtonWithIcon 
+              iconSrc={refresh}
+              onClick={handleRefresh}
+            />
           </div>
           <div className={styles.add}>
             <AddButton
