@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import LogoutButton from '../../../shared/buttons/submitButton';
 import { useAuthStore } from '../../auth/model/authStore';
-// import { useProductStore } from '../../products/model/produtsStore';
 import { useNavigate } from "react-router";
-
 import search from '../../../shared/icons/search.svg';
 import styles from './navbar.module.css';
 
