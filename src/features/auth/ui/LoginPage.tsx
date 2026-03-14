@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useAuthStore } from '../model/authStore';
 import { useNavigate } from 'react-router-dom';
-
-
 import InputField from 'src/shared/input/inputLoginPage';
 import { CustomCheckbox } from 'src/shared/input/checkbox';
 import SubmitButton from 'src/shared/buttons/submitButton';
@@ -68,9 +66,6 @@ export const LoginPage: React.FC = () => {
         localStorage.setItem('rememberMe', "false");
     }
   },[remember])
-
-
-
 
   // LOGIN handlers
   const handleChangeLogin = (event: React.ChangeEvent<HTMLInputElement>) => {
